@@ -1,10 +1,10 @@
 # Jump Height Estimator
 
-A real-time jump height estimation tool built with Python, MediaPipe Pose, and Streamlit.  It captures webcam video, detects body landmarks, tracks vertical displacement of the ankle landmark, and displays peak jump height (in pixels) live in a sleek web UI.
+A real-time jump height estimation tool built with Python, MediaPipe Pose, and Streamlit.  It captures webcam video, detects body landmarks, tracks vertical displacement of the ankle landmark, and displays peak jump height (in pixels) live in a web UI.
 
 ---
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**
 
@@ -35,7 +35,7 @@ A real-time jump height estimation tool built with Python, MediaPipe Pose, and S
 
 ---
 
-## 🚀 Program Logic
+## Program Logic
 
 1. **Capture Video**: Opens your default webcam feed using OpenCV.
 2. **Pose Detection**: Uses MediaPipe Pose to detect 33 body landmarks per frame.
@@ -46,7 +46,7 @@ A real-time jump height estimation tool built with Python, MediaPipe Pose, and S
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── streamlit_app.py        # Main Streamlit application
@@ -58,7 +58,7 @@ A real-time jump height estimation tool built with Python, MediaPipe Pose, and S
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 
 - Python 3.7+
 - OpenCV (`opencv-python`)
@@ -75,7 +75,7 @@ streamlit
 
 ---
 
-## 🎬 Usage
+## Usage
 
 - **Start**: Click “Start” in the Streamlit sidebar to begin capturing and processing.
 - **Stop**: Click “Stop” to end the capture and display the final peak jump value.
@@ -83,7 +83,7 @@ streamlit
 
 ---
 
-## 🐳 Dockerization
+##  Dockerization
 
 You can containerize this application using Docker for easy deployment.
 
@@ -142,7 +142,7 @@ docker-compose up --build
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please:
 
@@ -154,13 +154,8 @@ Contributions are welcome! Please:
 
 ---
 
-## 📝 License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [MediaPipe Pose](https://developers.google.com/mediapipe/solutions/pose)
 - [Streamlit](https://streamlit.io/)
