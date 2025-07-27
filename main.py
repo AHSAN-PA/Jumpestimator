@@ -91,7 +91,7 @@ class StreamlitApp:
         self.estimator.pose.close()
 
     def run(self):
-        st.title("📹 Jump Height Estimator (Streamlit + MediaPipe)")
+        st.title("Jump Height Estimator ")
         st.sidebar.markdown("### Controls")
         start_btn = st.sidebar.button("Start")
         stop_btn = st.sidebar.button("Stop")
