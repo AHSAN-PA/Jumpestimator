@@ -9,8 +9,8 @@ A real-time jump height estimation tool built with Python, MediaPipe Pose, and S
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/jump-height-estimator.git
-   cd jump-height-estimator
+   git clone https://github.com/ahsan-pa/jump-height-estimator.git
+   cd Jumpestimator
    ```
 
 2. **Create a virtual environment** (optional but recommended)
@@ -30,7 +30,7 @@ A real-time jump height estimation tool built with Python, MediaPipe Pose, and S
 4. **Run the app**
 
    ```bash
-   streamlit run streamlit_app.py
+   streamlit run main.py
    ```
 
 ---
@@ -49,8 +49,7 @@ A real-time jump height estimation tool built with Python, MediaPipe Pose, and S
 ## Project Structure
 
 ```text
-├── streamlit_app.py        # Main Streamlit application
-├── jump_estimator.py       # JumpHeightEstimator and StreamlitApp classes
+├── main.py                 # Main Streamlit application
 ├── requirements.txt        # Python dependencies
 ├── README.md               # This documentation
 └── .gitignore              # Exclude virtual env, caches, etc.
